@@ -1,0 +1,194 @@
+html {
+    color: white;
+    background-image: url(../img/flower.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    font-family: url (../font/zeronero);
+    font-family: zeronero;
+    color: white;
+}
+
+nav a {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover, nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color: #999;
+}
+
+side h1 {
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 5em;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    line-height: 100%;
+}
+
+side p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+side p a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+side p a:hover, side p a:visited {
+    color: #999;
+}
+
+side p a:hover {
+    color: white;
+}
+
+.header-container {
+    list-style-type: none;
+    margin: 30px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+article h1 {
+    padding-top: 10%;
+    padding-left: 35%;
+    font-size: 2.5em;
+}
+
+article p {
+    display: inline-block;
+    align-items: center;
+    display: inline;
+    position: static;
+    padding-bottom: 10%;
+}
+
+article p a {
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 5%;
+    align-items: center;
+}
+
+article p a:hover, article p a:visited {
+    color: white;
+}
+
+article p a:hover {
+    color: #999;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-family: zeronero;
+    padding-top: 10%;
+    padding-bottom: 1%
+}
+
+@media only screen and (min-width: 545px) {
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+    }
+    nav li:first-child a {
+        margin-left: 0;
+    }
+    nav li:last-child a {
+        margin-right: 0;
+    }
+    nav ul li {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .header-container, .main aside {}
+    ] .title {
+        float: left;
+    }
+    nav {
+        float: right;
+        width: 38%;
+    }
+    .main article {
+        float: left;
+        width: 57%;
+    }
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .wrapper {
+        width: 1026px;
+        margin: 0 auto;
+    }
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
